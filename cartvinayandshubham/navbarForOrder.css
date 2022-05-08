@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/* #mainnav{
+    position: fixed;
+} */
+
+
+#nav2{
+    height: 80px;
+    width: 100%;
+    background-color:#10847e;
+    display: flex;
+    /* justify-content: left; */
+    /* align-items: baseline; */
+    /* position:fixed; */
+    /* z-index: 1; */
+    /* top: 20px;  */
+}
+#nav2>img{
+    height: 65%;
+    margin-left: 15px;
+}
+
+
+#nav2{
+    background-color: #10847e;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* position:-webkit-sticky;
+    position:static;
+    top: 65px; */
+    width: 100%;
+    position:absolute;
+
+    /* transition: all .8s;
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+}
+#fororder{
+    width: 450px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+#fororder>p>a{
+    text-decoration: none;
+    color: white;
+    font-family: Open Sans,sans-serif!important;
+}
+#forlogsin{
+    width: 350px;
+    padding-top: 20px;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+#forlogsin>p>a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans,sans-serif!important;
+}
+#nav2 p:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
+
+.modal-header{
+background-color: #10847e;
+
+}
+.modal-header>img{
+height: 50%;
+width:50%;
+margin: 5px;
+
+}
+
+.modal {
+display:none; /* Hidden by default */
+/* justify-content: right; */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+margin-left: 73%;
+left:0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+/* background-color: rgb(0,0,0); Fallback color/ */
+/* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+-webkit-animation-name: fadeIn; /* Fade in the background */
+-webkit-animation-duration: 0.4s;
+animation-name: fadeIn;
+animation-duration: 0.4s
+}
+
+
+/* Modal Content */
+.modal-content {
+position: fixed;
+
+top:20px;
+background-color: #fefefe;
+width:300px;
+height:500px;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+-webkit-animation-name: slideIn;
+-webkit-animation-duration: 0.4s;
+animation-name: slideIn;
+animation-duration: 0.4s
+
+}
+
+/* The Close Button */
+.close {
+color:rgb(255, 249, 249);
+float: right;
+font-size: 28px;
+font-weight: bold;
+margin: 10px;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+
+
+.modal-body {padding: 2px 16px;}
+
+#myBtn{
+    background-color: #10847e;
+    border: 0px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans,sans-serif!important;
+    font-size: 17px;
+}
+
+#pophader{
+    background-color: #10847e;
+}
+
+
+#inpcontinue{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+#inpcontinue>input{
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#inpcontinue>button{
+    height: 40px;
+    background-color: #10847e;
+    color: white;
+    font-family: Open Sans,sans-serif!important;
+    font-weight: 600;
+    border: 0px;
+    border-radius: 5px;
+}
+#inpcontinue>p{
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+from {right: -300px; opacity: 0} 
+to {right: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+from {right: -300px; opacity: 0}
+to {right: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+from {opacity: 0} 
+to {opacity: 1}
+}
+
+@keyframes fadeIn {
+from {opacity: 0} 
+to {opacity: 1}
+}
+@media all and (min-width:755px) and (max-width:1050px) {
+    .modal {
+    margin-left:60%;
+    }
+    
+}
+@media all and (min-width:200px) and (max-width:754px) {
+    .modal{
+        margin-left: 40%;
+    }
+
+}
+
+
+
+
+
+
+#serving{
+    background-color: #c4eeec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 40px;
+    font-size: 12px;
+}
+#serving>img{
+    height: 30px;
+}
+#Over{
+    background-color: #c4eeec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 40px;
+    font-size: 12px;
+}
+#Chooseloc{
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: Open Sans,sans-serif!important;
+    color:gray;
+    font-weight: 600;
+
+}
+#forintbut{
+  margin-left:20px;
+  display: flex;
+}
+#forintbut>input{
+   height: 33px;
+   border-radius: 0px;
+   border: 1px solid gray;
+}
+#forintbut>button{
+   height: 35px;
+   margin: 0;
+   background-color: #10847e;
+   border: 0px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   width: 60px;
+   color: white;
+}
+#forsaveadd{
+   margin: 10px 0px 10px 20px;
+   font-size: 20px;
+   font-family: Open Sans,sans-serif!important;
+}
+address{
+   height: 100px;
+   width: 100px;
+   border: 1px;
+   border-style: dashed;
+   margin: 10px 0px 10px 20px;
+   border-radius: 5px;
+}
