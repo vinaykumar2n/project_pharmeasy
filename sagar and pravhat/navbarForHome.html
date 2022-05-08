@@ -34,8 +34,8 @@
         </div>
         <div id="nav2">
              <div id="fororder">
-                 <p><a href="">Order Medicines</a></p>
-                 <p><a href="">Healthcare</a></p>
+                 <p><a href="../productvinay/productspage.html">Order Medicines</a></p>
+                 <p><a href="../productvinay/productspage.html">Healthcare</a></p>
                  <p><a href="">Lab Tests</a></p>
                  <p><a href="">RTPCR</a></p>
              </div>
@@ -45,7 +45,7 @@
                  <button id="myBtn" ><img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt="">Signnup /</button>
                  <button id="myBtn3" >Login</button>
                 <!-- </div> -->
-                 <p><a href=""><img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt="">cart</a></p>
+                 <p id="cartbtn"><a href="../cartvinayandshubham/index.html"><img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt="">cart</a></p>
              </div>
         </div>
     </nav>
@@ -139,7 +139,7 @@
               </div>
               <div class="D1_1_1_2"><h3>Order Medicines</h3></div>
           </div>      
-          <button class="B1">Order Now</button>
+          <button class="B1" id="order">Order Now</button>
       </div>
       
       <div class="D1_2">
@@ -549,7 +549,7 @@
                 <div class="plam">
                     <p style="margin:5px 0px 0px 10px;">30% OFF</p>
                     <img style="height: 60%; width: 40%; align-items: center;margin: 20px 0px 0px 50px;" src=        "https://cdn01.pharmeasy.in/dam/products/064425/ecosprin-75mg-strip-of-14-tablets-1-1647434835.jpg?dim=320x320&dpr=1&q=100",
-                    " alt="">
+                     alt="">
                 </div>
                 <p class="plamper">Ecosprin 75mg Strip Of 14 Tablets</p>
                 <div style="display:flex; align-items: center;">
@@ -768,8 +768,8 @@
     <div id="customerouterdiv">
     <h2 id="cheading">What our customers have to say</h2>
         <section class="customersection">
-          <button class="pb"><img src="images/right-arrow.png" alt=""></button>
-          <button class="nb"><img src="images/right-arrow.png" alt=""></button>
+          <button class="pb"><img src="../productvinay/images/right-arrow.png" alt=""></button>
+          <button class="nb"><img src="../productvinay/images/right-arrow.png" alt=""></button>
           <div id="customers">
               <div class="customerbox">
                   <div>
@@ -1106,6 +1106,7 @@
 <script src="searchfunctionality.js"></script>
 <script >
 
+
 // signup javascript functioning
 var form=document.querySelector("#form");
 form.addEventListener("submit" ,function(){
@@ -1253,7 +1254,10 @@ if(logindata!==null)
     </div>`
 }
 
-
+// document.querySelector("#forcart").addEventListener("click",function(){
+//     event.preventDefault()
+//     window.location.href="../cartvinayandshubham/index.html"
+// })
     // Get the modal
     var modal = document.getElementById("myModal");
     var modal2 = document.getElementById("myModal2");
@@ -1344,4 +1348,6 @@ function sliderfun(productContainer,nxtBtn,preBtn){
         })
     })
 }
+
+
     </script>

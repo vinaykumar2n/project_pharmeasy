@@ -44,6 +44,10 @@
      modal2.style.display = "none";
    }
  };
+ document.querySelector("#deliver").style.cursor="pointer"
+ document.querySelector("#deliver").addEventListener("click",function(){
+   window.location.href="../paymentPageRahul/index.html"
+ })
 // End of Nav bar---------------------------------------------------------------------
 
 var cartData=JSON.parse(localStorage.getItem("cartData")) || []
@@ -180,6 +184,8 @@ document.querySelector("#num").innerText=cartData.length
 if(cartData.length>0){
   document.querySelector("#deliverycharge").innerText=84.03
   document.querySelector("#amounttobepaid").innerText=(Number(total)+84.03).toFixed(2)
+  var totalbill= (Number(total)+84.03).toFixed(2)
+  localStorage.setItem("totalBill",totalbill)
   document.querySelector("#saved").innerText=(strikedtotal-total).toFixed(2)
   document.querySelector("#discounted").innerText=(Number(total)*0.1798).toFixed(2)
 }

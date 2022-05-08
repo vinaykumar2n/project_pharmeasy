@@ -18,8 +18,8 @@
     /* z-index: 1; */
     /* top: 20px;  */
 }
-#nav2>img{
-    height: 65%;
+#nav2>a img{
+    height: 50px;
     margin-left: 15px;
 }
 
