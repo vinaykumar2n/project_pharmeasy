@@ -16,10 +16,11 @@ body{
     display: flex;
     align-items: center;    
 }
-#productnavbar>div:first-child>img{
+#productnavbar>div:first-child>a>img{
     /* border: 1px solid black; */
     width: 163px;
     height: 50px;
+    margin-left: 10px;
     padding-right: 15px;
 }
 #productnavbar a{

@@ -122,5 +122,5 @@ if(cartData.length>0)
 }
 
 function viewcartfun(){
-    window.location.href="index.html"
+    window.location.href="../cartvinayandshubham/index.html"
 }

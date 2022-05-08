@@ -70,4 +70,8 @@ document.querySelector("#cartPrice").innerText=cartAmount;
 
 var stike=JSON.parse(localStorage.getItem("strikedtotal"));
 document.querySelector("#strike").innerText=stike;
+document.querySelector("#strike").style.marginRight="10px"
+
+var totalBill=JSON.parse(localStorage.getItem("totalBill"));
+document.querySelector("#totalbillpaid").innerText=totalBill;
 

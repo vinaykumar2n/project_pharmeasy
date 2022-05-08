@@ -5,7 +5,7 @@ const inputBox = searchWrapper.querySelector(".search-input input");
 const suggBox = searchWrapper.querySelector(".autocom-box");
 const icon = searchWrapper.querySelector(".icon");
 let linkTag = searchWrapper.querySelector("a");
-let webLink="aftersearchpage.html";
+let webLink="../productvinay/aftersearchpage.html";
 
 
 // if user press any key and release
@@ -41,7 +41,7 @@ function select(element){
     let selectData = element.textContent;
     inputBox.value = selectData;
     icon.onclick = ()=>{
-        webLink = "aftersearchpage.html";
+        webLink = "../productvinay/aftersearchpage.html";
         var out= prodData.filter(function(el,i){
             return el.name==selectData
         })
