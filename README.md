@@ -1,7 +1,7 @@
 # Project_Pharmeasy
 This is group project for unit 2 construct week
 ## Authors
-- [@pravatray](https://github.com/pravhatray)
+- [@pravhat ray](https://github.com/pravhatray)
 - [@sagarthakur](https://github.com/1sagarthakur1)
 - [@vinaykumar](https://github.com/vinaykumar2n)
 - [@subhamdey](https://github.com/jstgrowup)
