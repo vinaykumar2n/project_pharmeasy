@@ -1,13 +1,13 @@
 # Project_Pharmeasy_clone
-This is group project for unit 2 construct week
+This is a group project for unit 2 construct week
 
 ## Features
 - Login/signup
-- Searching the medicines by there names 
-- Adding the medicines to the cart 
-- Increasing the quantity,deleting the cart items from the cart page 
-- Getting the total price and proceeding to the payment page 
-- Entering the payment details via different payment options
+- Searching the medicines by there names.
+- Adding the medicines to the cart with required quantity.
+- Increasing the quantity,deleting the cart items from the cart page.
+- Getting the total price and proceeding to the payment page.
+- Payment options and order confirmation.
 
 ## 🛠 Skills
 Javascript,HTML,CSS and Localstorage
