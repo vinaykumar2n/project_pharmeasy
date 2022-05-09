@@ -1,4 +1,4 @@
-# project_pharmeasy
+# Project_Pharmeasy
 This is group project for unit 2 construct week
 ## Authors
 - [@pravatray](https://github.com/pravhatray)
