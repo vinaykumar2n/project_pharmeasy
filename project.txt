@@ -1,1 +1,8 @@
-pharmeasy
+Clone of Pharmeasy website: Unit 2 Construct Week project
+Team members:
+1.Pravhat Ray
+2.Nara Vinay Kumar
+3.Sagar Singh Thakur
+4.Srikanta dhut
+5.Rahul Badade
+6.Shubham Dey
