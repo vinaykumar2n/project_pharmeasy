@@ -5,12 +5,12 @@ This is a group project for unit 2 construct week
 - Login/signup
 - Searching the medicines by there names.
 - Adding the medicines to the cart with required quantity.
-- Increasing the quantity,deleting the cart items from the cart page.
+- Increasing the quantity, deleting the cart items from the cart page.
 - Getting the total price and proceeding to the payment page.
 - Payment options and order confirmation.
 
 ## 🛠 Skills
-Javascript,HTML,CSS and Localstorage
+Javascript, HTML, CSS and Localstorage
 
 ## Authors
 - [@pravhat ray](https://github.com/pravhatray)
