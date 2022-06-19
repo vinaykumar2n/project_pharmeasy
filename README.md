@@ -3,7 +3,7 @@ This is a group project for unit 2 construct week
 
 ## Features
 - Login/signup
-- Searching the medicines by there names.
+- Searching the medicines by their names.
 - Adding the medicines to the cart with required quantity.
 - Increasing the quantity, deleting the cart items from the cart page.
 - Getting the total price and proceeding to the payment page.
